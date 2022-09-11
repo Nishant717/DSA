@@ -36,19 +36,19 @@ class Solution{
         // 
         // return -1;
                                  //using map
-        // int i;
-        // map<int,int>mp;
-        // for(i=0;i<size;i++)
-        // {
-        //     mp[a[i]]++;
-        // }
-        // for(auto it : mp)
-        // {
-        //     if(it.second>size/2)
-        //     {
-        //         return it.first;
-        //     }
-        // }
+        int i;
+        map<int,int>mp;
+        for(i=0;i<size;i++)
+        {
+            mp[a[i]]++;
+        }
+        for(auto it : mp)
+        {
+            if(it.second>size/2)
+            {
+                return it.first;
+            }
+        }
         return -1;
         
         
