@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //{ Driver Code Starts
 // C program to find n'th Node in linked list
 #include <stdio.h>
@@ -86,7 +85,6 @@ int getNthFromLast(Node *head, int n)
        return temp->data;
 }
 
-=======
 //{ Driver Code Starts
 // C program to find n'th Node in linked list
 #include <stdio.h>
@@ -174,4 +172,3 @@ int getNthFromLast(Node *head, int n)
        return temp->data;
 }
 
->>>>>>> 51d26dc0fb8978a6469bf67e64f00d5d4bcd4fed

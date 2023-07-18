@@ -15,7 +15,7 @@ struct Node
         data=x;
         next=NULL;
         prev=NULL;
-    }
+    }//git
         
 };
 
